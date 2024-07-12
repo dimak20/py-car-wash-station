@@ -32,7 +32,7 @@ class CarWashStation:
         if not (1.0 <= average_rating <= 5.0):
             raise ValueError(
                 "The value of `average_rating` must be in the range from "
-                "1.0 to 10.0"
+                "1.0 to 5.0"
             )
         self.average_rating = average_rating
         self.count_of_ratings = count_of_ratings
